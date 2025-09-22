@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Graph Gallery (SVG)</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .graph-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+    .graph-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .graph-card:hover {
+      transform: scale(1.02);
+    }
+    .graph-card img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .graph-info {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .graph-info h3 {
+      margin: 0;
+      font-size: 1em;
+      color: #333;
+    }
+    .graph-info p {
+      margin: 5px 0 0;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Graph Visualizations (SVG)</h1>
+  <div class="graph-grid">
+    <div class="graph-card">
+      <a href="svg_output/ba.svg" target="_blank">
+        <img src="svg_output/ba.svg" alt="ba.svg">
+      </a>
+      <div class="graph-info">
+        <h3>ba.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/ba_1.svg" target="_blank">
+        <img src="svg_output/ba_1.svg" alt="ba_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>ba_1.svg</h3>
+        <p>Nodes: 4</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/baab_bab_baab.svg" target="_blank">
+        <img src="svg_output/baab_bab_baab.svg" alt="baab_bab_baab.svg">
+      </a>
+      <div class="graph-info">
+        <h3>baab_bab_baab.svg</h3>
+        <p>Nodes: 16</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/baal.svg" target="_blank">
+        <img src="svg_output/baal.svg" alt="baal.svg">
+      </a>
+      <div class="graph-info">
+        <h3>baal.svg</h3>
+        <p>Nodes: 9</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/baal_baaal.svg" target="_blank">
+        <img src="svg_output/baal_baaal.svg" alt="baal_baaal.svg">
+      </a>
+      <div class="graph-info">
+        <h3>baal_baaal.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bab.svg" target="_blank">
+        <img src="svg_output/bab.svg" alt="bab.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bab.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bab_baabel.svg" target="_blank">
+        <img src="svg_output/bab_baabel.svg" alt="bab_baabel.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bab_baabel.svg</h3>
+        <p>Nodes: 7</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/babas.svg" target="_blank">
+        <img src="svg_output/babas.svg" alt="babas.svg">
+      </a>
+      <div class="graph-info">
+        <h3>babas.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/babez.svg" target="_blank">
+        <img src="svg_output/babez.svg" alt="babez.svg">
+      </a>
+      <div class="graph-info">
+        <h3>babez.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/babul.svg" target="_blank">
+        <img src="svg_output/babul.svg" alt="babul.svg">
+      </a>
+      <div class="graph-info">
+        <h3>babul.svg</h3>
+        <p>Nodes: 5</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bac.svg" target="_blank">
+        <img src="svg_output/bac.svg" alt="bac.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bac.svg</h3>
+        <p>Nodes: 6</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bac_baac_babaac.svg" target="_blank">
+        <img src="svg_output/bac_baac_babaac.svg" alt="bac_baac_babaac.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bac_baac_babaac.svg</h3>
+        <p>Nodes: 4</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bachat.svg" target="_blank">
+        <img src="svg_output/bachat.svg" alt="bachat.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bachat.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bad.svg" target="_blank">
+        <img src="svg_output/bad.svg" alt="bad.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bad.svg</h3>
+        <p>Nodes: 25</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bad_bed_bes.svg" target="_blank">
+        <img src="svg_output/bad_bed_bes.svg" alt="bad_bed_bes.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bad_bed_bes.svg</h3>
+        <p>Nodes: 38</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/badaar_badar.svg" target="_blank">
+        <img src="svg_output/badaar_badar.svg" alt="badaar_badar.svg">
+      </a>
+      <div class="graph-info">
+        <h3>badaar_badar.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/badij.svg" target="_blank">
+        <img src="svg_output/badij.svg" alt="badij.svg">
+      </a>
+      <div class="graph-info">
+        <h3>badij.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/badminton.svg" target="_blank">
+        <img src="svg_output/badminton.svg" alt="badminton.svg">
+      </a>
+      <div class="graph-info">
+        <h3>badminton.svg</h3>
+        <p>Nodes: 4</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/badzhaan.svg" target="_blank">
+        <img src="svg_output/badzhaan.svg" alt="badzhaan.svg">
+      </a>
+      <div class="graph-info">
+        <h3>badzhaan.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bafomet.svg" target="_blank">
+        <img src="svg_output/bafomet.svg" alt="bafomet.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bafomet.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bag.svg" target="_blank">
+        <img src="svg_output/bag.svg" alt="bag.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bag.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bag_1.svg" target="_blank">
+        <img src="svg_output/bag_1.svg" alt="bag_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bag_1.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bag_2.svg" target="_blank">
+        <img src="svg_output/bag_2.svg" alt="bag_2.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bag_2.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bag_3.svg" target="_blank">
+        <img src="svg_output/bag_3.svg" alt="bag_3.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bag_3.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bag_4.svg" target="_blank">
+        <img src="svg_output/bag_4.svg" alt="bag_4.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bag_4.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bagaat.svg" target="_blank">
+        <img src="svg_output/bagaat.svg" alt="bagaat.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bagaat.svg</h3>
+        <p>Nodes: 28</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bagar.svg" target="_blank">
+        <img src="svg_output/bagar.svg" alt="bagar.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bagar.svg</h3>
+        <p>Nodes: 6</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bagij.svg" target="_blank">
+        <img src="svg_output/bagij.svg" alt="bagij.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bagij.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bah.svg" target="_blank">
+        <img src="svg_output/bah.svg" alt="bah.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bah.svg</h3>
+        <p>Nodes: 11</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bah_1.svg" target="_blank">
+        <img src="svg_output/bah_1.svg" alt="bah_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bah_1.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bah_2.svg" target="_blank">
+        <img src="svg_output/bah_2.svg" alt="bah_2.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bah_2.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bahaa_baha.svg" target="_blank">
+        <img src="svg_output/bahaa_baha.svg" alt="bahaa_baha.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bahaa_baha.svg</h3>
+        <p>Nodes: 8</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bahadir.svg" target="_blank">
+        <img src="svg_output/bahadir.svg" alt="bahadir.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bahadir.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bahadzhan_bhadzhan.svg" target="_blank">
+        <img src="svg_output/bahadzhan_bhadzhan.svg" alt="bahadzhan_bhadzhan.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bahadzhan_bhadzhan.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bahajev.svg" target="_blank">
+        <img src="svg_output/bahajev.svg" alt="bahajev.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bahajev.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/baham.svg" target="_blank">
+        <img src="svg_output/baham.svg" alt="baham.svg">
+      </a>
+      <div class="graph-info">
+        <h3>baham.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bahanovsk.svg" target="_blank">
+        <img src="svg_output/bahanovsk.svg" alt="bahanovsk.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bahanovsk.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bahtin.svg" target="_blank">
+        <img src="svg_output/bahtin.svg" alt="bahtin.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bahtin.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bal.svg" target="_blank">
+        <img src="svg_output/bal.svg" alt="bal.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bal.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bal_1.svg" target="_blank">
+        <img src="svg_output/bal_1.svg" alt="bal_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bal_1.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bal_bal_ball_baljlj.svg" target="_blank">
+        <img src="svg_output/bal_bal_ball_baljlj.svg" alt="bal_bal_ball_baljlj.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bal_bal_ball_baljlj.svg</h3>
+        <p>Nodes: 45</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bal_bals_baal_balt.svg" target="_blank">
+        <img src="svg_output/bal_bals_baal_balt.svg" alt="bal_bals_baal_balt.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bal_bals_baal_balt.svg</h3>
+        <p>Nodes: 270</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bali.svg" target="_blank">
+        <img src="svg_output/bali.svg" alt="bali.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bali.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/baljlj.svg" target="_blank">
+        <img src="svg_output/baljlj.svg" alt="baljlj.svg">
+      </a>
+      <div class="graph-info">
+        <h3>baljlj.svg</h3>
+        <p>Nodes: 4</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/ball.svg" target="_blank">
+        <img src="svg_output/ball.svg" alt="ball.svg">
+      </a>
+      <div class="graph-info">
+        <h3>ball.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/ball_1.svg" target="_blank">
+        <img src="svg_output/ball_1.svg" alt="ball_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>ball_1.svg</h3>
+        <p>Nodes: 4</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bed.svg" target="_blank">
+        <img src="svg_output/bed.svg" alt="bed.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bed.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/beern.svg" target="_blank">
+        <img src="svg_output/beern.svg" alt="beern.svg">
+      </a>
+      <div class="graph-info">
+        <h3>beern.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/beern_beernj.svg" target="_blank">
+        <img src="svg_output/beern_beernj.svg" alt="beern_beernj.svg">
+      </a>
+      <div class="graph-info">
+        <h3>beern_beernj.svg</h3>
+        <p>Nodes: 122</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/beidz_beig.svg" target="_blank">
+        <img src="svg_output/beidz_beig.svg" alt="beidz_beig.svg">
+      </a>
+      <div class="graph-info">
+        <h3>beidz_beig.svg</h3>
+        <p>Nodes: 40</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bes.svg" target="_blank">
+        <img src="svg_output/bes.svg" alt="bes.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bes.svg</h3>
+        <p>Nodes: 8</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bes_1.svg" target="_blank">
+        <img src="svg_output/bes_1.svg" alt="bes_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bes_1.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/beser.svg" target="_blank">
+        <img src="svg_output/beser.svg" alt="beser.svg">
+      </a>
+      <div class="graph-info">
+        <h3>beser.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/beson.svg" target="_blank">
+        <img src="svg_output/beson.svg" alt="beson.svg">
+      </a>
+      <div class="graph-info">
+        <h3>beson.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/biez_biezh.svg" target="_blank">
+        <img src="svg_output/biez_biezh.svg" alt="biez_biezh.svg">
+      </a>
+      <div class="graph-info">
+        <h3>biez_biezh.svg</h3>
+        <p>Nodes: 67</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bljau_bljaav.svg" target="_blank">
+        <img src="svg_output/bljau_bljaav.svg" alt="bljau_bljaav.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bljau_bljaav.svg</h3>
+        <p>Nodes: 32</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/briin.svg" target="_blank">
+        <img src="svg_output/briin.svg" alt="briin.svg">
+      </a>
+      <div class="graph-info">
+        <h3>briin.svg</h3>
+        <p>Nodes: 129</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/briin_1.svg" target="_blank">
+        <img src="svg_output/briin_1.svg" alt="briin_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>briin_1.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/briiv.svg" target="_blank">
+        <img src="svg_output/briiv.svg" alt="briiv.svg">
+      </a>
+      <div class="graph-info">
+        <h3>briiv.svg</h3>
+        <p>Nodes: 131</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brugj.svg" target="_blank">
+        <img src="svg_output/brugj.svg" alt="brugj.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brugj.svg</h3>
+        <p>Nodes: 15</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruk.svg" target="_blank">
+        <img src="svg_output/bruk.svg" alt="bruk.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruk.svg</h3>
+        <p>Nodes: 3</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruk_1.svg" target="_blank">
+        <img src="svg_output/bruk_1.svg" alt="bruk_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruk_1.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruk_bruuk_bruc_bruuc_brauc_brauk.svg" target="_blank">
+        <img src="svg_output/bruk_bruuk_bruc_bruuc_brauc_brauk.svg" alt="bruk_bruuk_bruc_bruuc_brauc_brauk.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruk_bruuk_bruc_bruuc_brauc_brauk.svg</h3>
+        <p>Nodes: 223</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brukn.svg" target="_blank">
+        <img src="svg_output/brukn.svg" alt="brukn.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brukn.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brunj.svg" target="_blank">
+        <img src="svg_output/brunj.svg" alt="brunj.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brunj.svg</h3>
+        <p>Nodes: 64</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brunj_1.svg" target="_blank">
+        <img src="svg_output/brunj_1.svg" alt="brunj_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brunj_1.svg</h3>
+        <p>Nodes: 4</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brunjish.svg" target="_blank">
+        <img src="svg_output/brunjish.svg" alt="brunjish.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brunjish.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brus.svg" target="_blank">
+        <img src="svg_output/brus.svg" alt="brus.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brus.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brus_1.svg" target="_blank">
+        <img src="svg_output/brus_1.svg" alt="brus_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brus_1.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brus_2.svg" target="_blank">
+        <img src="svg_output/brus_2.svg" alt="brus_2.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brus_2.svg</h3>
+        <p>Nodes: 4</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brush.svg" target="_blank">
+        <img src="svg_output/brush.svg" alt="brush.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brush.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brut.svg" target="_blank">
+        <img src="svg_output/brut.svg" alt="brut.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brut.svg</h3>
+        <p>Nodes: 5</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/brut_1.svg" target="_blank">
+        <img src="svg_output/brut_1.svg" alt="brut_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>brut_1.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruuk.svg" target="_blank">
+        <img src="svg_output/bruuk.svg" alt="bruuk.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruuk.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruukj.svg" target="_blank">
+        <img src="svg_output/bruukj.svg" alt="bruukj.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruukj.svg</h3>
+        <p>Nodes: 6</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruus.svg" target="_blank">
+        <img src="svg_output/bruus.svg" alt="bruus.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruus.svg</h3>
+        <p>Nodes: 2</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruzh.svg" target="_blank">
+        <img src="svg_output/bruzh.svg" alt="bruzh.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruzh.svg</h3>
+        <p>Nodes: 10</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/bruzh_1.svg" target="_blank">
+        <img src="svg_output/bruzh_1.svg" alt="bruzh_1.svg">
+      </a>
+      <div class="graph-info">
+        <h3>bruzh_1.svg</h3>
+        <p>Nodes: 6</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <a href="svg_output/buuv_buuvj.svg" target="_blank">
+        <img src="svg_output/buuv_buuvj.svg" alt="buuv_buuvj.svg">
+      </a>
+      <div class="graph-info">
+        <h3>buuv_buuvj.svg</h3>
+        <p>Nodes: 290</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
