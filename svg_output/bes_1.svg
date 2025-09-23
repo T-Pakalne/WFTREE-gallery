@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 196.00 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
 <polygon fill="white" stroke="none" points="-4,4 -4,-112 192.41,-112 192.41,4 -4,4"/>
-<!-- # bes&#45;&gt;Bess -->
+<!-- # bes&#45;&gt;Bess___bes -->
 <g id="edge1" class="edge">
-<title># bes&#45;&gt;Bess</title>
+<title># bes&#45;&gt;Bess___bes</title>
 <path fill="none" stroke="#cccccc" d="M76.44,-65.19C95.17,-70.85 117.37,-77.56 133.97,-82.57"/>
 </g>
-<!-- # bes&#45;&gt;Besa -->
+<!-- # bes&#45;&gt;Besa___bes -->
 <g id="edge2" class="edge">
-<title># bes&#45;&gt;Besa</title>
+<title># bes&#45;&gt;Besa___bes</title>
 <path fill="none" stroke="#cccccc" d="M76.44,-42.81C95.03,-37.19 117.05,-30.54 133.61,-25.54"/>
 </g>
 <!-- # bes -->
@@ -25,15 +25,15 @@
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-57.2" font-family="Times New Roman,serif" font-size="14.00">bes</text>
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-40.7" font-family="Times New Roman,serif" font-size="14.00">(borrowed)</text>
 </g>
-<!-- Bess -->
+<!-- Bess___bes -->
 <g id="node2" class="node">
-<title>Bess</title>
+<title>Bess___bes</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="159.58" cy="-90" rx="28.32" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="159.58" y="-84.95" font-family="Times New Roman,serif" font-size="14.00">Bess</text>
 </g>
-<!-- Besa -->
+<!-- Besa___bes -->
 <g id="node3" class="node">
-<title>Besa</title>
+<title>Besa___bes</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="159.58" cy="-18" rx="28.83" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="159.58" y="-12.95" font-family="Times New Roman,serif" font-size="14.00">Besa</text>
 </g>

@@ -8,9 +8,9 @@
  viewBox="0.00 0.00 236.00 49.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 45)">
 <polygon fill="white" stroke="none" points="-4,4 -4,-45 232.33,-45 232.33,4 -4,4"/>
-<!-- # bērn&#45;&gt;Blekbērna -->
+<!-- # bērn&#45;&gt;Blekbērna___bērn -->
 <g id="edge1" class="edge">
-<title># bērn&#45;&gt;Blekbērna</title>
+<title># bērn&#45;&gt;Blekbērna___bērn</title>
 <path fill="none" stroke="#cccccc" d="M76.67,-20.5C93.34,-20.5 113.18,-20.5 130.9,-20.5"/>
 </g>
 <!-- # bērn -->
@@ -20,9 +20,9 @@
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-23.7" font-family="Times New Roman,serif" font-size="14.00">bērn</text>
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-7.2" font-family="Times New Roman,serif" font-size="14.00">(borrowed)</text>
 </g>
-<!-- Blekbērna -->
+<!-- Blekbērna___bērn -->
 <g id="node2" class="node">
-<title>Blekbērna</title>
+<title>Blekbērna___bērn</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="179.54" cy="-20.5" rx="48.79" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="179.54" y="-15.45" font-family="Times New Roman,serif" font-size="14.00">Blekbērna</text>
 </g>

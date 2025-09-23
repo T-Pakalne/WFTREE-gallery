@@ -20,111 +20,111 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M57.72,-363.12C80.79,-331.61 128.89,-265.92 156.97,-227.57"/>
 <polygon fill="black" stroke="black" points="159.67,-229.81 162.76,-219.67 154.02,-225.67 159.67,-229.81"/>
 </g>
-<!-- ## bāb&#45;&gt;bāba -->
+<!-- ## bāb&#45;&gt;bāba____bāb -->
 <g id="edge3" class="edge">
-<title>## bāb&#45;&gt;bāba</title>
+<title>## bāb&#45;&gt;bāba____bāb</title>
 <path fill="none" stroke="#cccccc" d="M206.33,-643.61C232.66,-650.39 273.33,-660.86 299.4,-667.57"/>
 </g>
-<!-- ## bāb&#45;&gt;bābietis -->
+<!-- ## bāb&#45;&gt;bābietis____bāb -->
 <g id="edge4" class="edge">
-<title>## bāb&#45;&gt;bābietis</title>
+<title>## bāb&#45;&gt;bābietis____bāb</title>
 <path fill="none" stroke="#cccccc" d="M206.62,-641.73C263.93,-651.76 397.82,-675.2 462.81,-686.58"/>
 </g>
-<!-- ## bāb&#45;&gt;bābiets -->
-<g id="edge6" class="edge">
-<title>## bāb&#45;&gt;bābiets</title>
+<!-- ## bāb&#45;&gt;bābiets____bāb -->
+<g id="edge5" class="edge">
+<title>## bāb&#45;&gt;bābiets____bāb</title>
 <path fill="none" stroke="#cccccc" d="M206.62,-634.81C264.01,-630.14 398.17,-619.24 463.07,-613.96"/>
 </g>
-<!-- ## bāb&#45;&gt;bābiņa -->
-<g id="edge8" class="edge">
-<title>## bāb&#45;&gt;bābiņa</title>
+<!-- ## bāb&#45;&gt;bābiņa____bāb -->
+<g id="edge6" class="edge">
+<title>## bāb&#45;&gt;bābiņa____bāb</title>
 <path fill="none" stroke="#cccccc" d="M206.62,-650.93C267.77,-682.47 416.11,-758.98 474.9,-789.31"/>
 </g>
-<!-- ## bāb&#45;&gt;dzemdētājbāba -->
-<g id="edge10" class="edge">
-<title>## bāb&#45;&gt;dzemdētājbāba</title>
+<!-- ## bāb&#45;&gt;dzemdētājbāba____bāb -->
+<g id="edge7" class="edge">
+<title>## bāb&#45;&gt;dzemdētājbāba____bāb</title>
 <path fill="none" stroke="#cccccc" d="M206.62,-627.8C262.65,-608.71 391.87,-564.68 458.35,-542.02"/>
 </g>
-<!-- ## bab, bāb&#45;&gt;baba -->
+<!-- ## bab, bāb&#45;&gt;baba____bab__bāb -->
 <g id="edge13" class="edge">
-<title>## bab, bāb&#45;&gt;baba</title>
+<title>## bab, bāb&#45;&gt;baba____bab__bāb</title>
 <path fill="none" stroke="#cccccc" d="M217.65,-207.27C243.28,-213.69 276.7,-222.06 299.27,-227.71"/>
 </g>
-<!-- ## bab, bāb&#45;&gt;babene -->
+<!-- ## bab, bāb&#45;&gt;babene____bab__bāb -->
 <g id="edge14" class="edge">
-<title>## bab, bāb&#45;&gt;babene</title>
+<title>## bab, bāb&#45;&gt;babene____bab__bāb</title>
 <path fill="none" stroke="#cccccc" d="M217.89,-183.05C282.9,-157.64 413.44,-106.63 471.06,-84.12"/>
 </g>
-<!-- ## bab, bāb&#45;&gt;babeņa -->
-<g id="edge16" class="edge">
-<title>## bab, bāb&#45;&gt;babeņa</title>
+<!-- ## bab, bāb&#45;&gt;babeņa____bab__bāb -->
+<g id="edge15" class="edge">
+<title>## bab, bāb&#45;&gt;babeņa____bab__bāb</title>
 <path fill="none" stroke="#cccccc" d="M217.89,-215.47C283.56,-245.44 416.11,-305.94 472.8,-331.81"/>
 </g>
-<!-- ## bab, bāb&#45;&gt;babiņa -->
-<g id="edge18" class="edge">
-<title>## bab, bāb&#45;&gt;babiņa</title>
+<!-- ## bab, bāb&#45;&gt;babiņa____bab__bāb -->
+<g id="edge16" class="edge">
+<title>## bab, bāb&#45;&gt;babiņa____bab__bāb</title>
 <path fill="none" stroke="#cccccc" d="M217.89,-204.58C281.07,-215.44 406.16,-236.95 466.04,-247.25"/>
 </g>
-<!-- ## bab, bāb&#45;&gt;babņiks -->
-<g id="edge20" class="edge">
-<title>## bab, bāb&#45;&gt;babņiks</title>
+<!-- ## bab, bāb&#45;&gt;babņiks____bab__bāb -->
+<g id="edge17" class="edge">
+<title>## bab, bāb&#45;&gt;babņiks____bab__bāb</title>
 <path fill="none" stroke="#cccccc" d="M217.65,-188.73C240.28,-183.06 268.99,-175.87 290.94,-170.38"/>
 </g>
-<!-- ## bab, bāb&#45;&gt;babuška -->
-<g id="edge21" class="edge">
-<title>## bab, bāb&#45;&gt;babuška</title>
+<!-- ## bab, bāb&#45;&gt;babuška____bab__bāb -->
+<g id="edge18" class="edge">
+<title>## bab, bāb&#45;&gt;babuška____bab__bāb</title>
 <path fill="none" stroke="#cccccc" d="M207.67,-177.69C235.65,-156.67 278.73,-124.31 303.98,-105.34"/>
 </g>
-<!-- ## bab, bāb&#45;&gt;bābuška -->
-<g id="edge22" class="edge">
-<title>## bab, bāb&#45;&gt;bābuška</title>
+<!-- ## bab, bāb&#45;&gt;bābuška____bab__bāb -->
+<g id="edge19" class="edge">
+<title>## bab, bāb&#45;&gt;bābuška____bab__bāb</title>
 <path fill="none" stroke="#cccccc" d="M196.84,-177.7C225.48,-141.84 284.5,-67.95 311,-34.77"/>
 </g>
-<!-- bāba&#45;&gt;bābietis -->
-<g id="edge5" class="edge">
-<title>bāba&#45;&gt;bābietis</title>
+<!-- bāba____bāb&#45;&gt;bābietis____bāb -->
+<g id="edge8" class="edge">
+<title>bāba____bāb&#45;&gt;bābietis____bāb</title>
 <path fill="none" stroke="green" d="M353.29,-676.97C379.14,-679.82 418.79,-684.2 450.13,-687.66"/>
 <polygon fill="green" stroke="green" points="449.44,-691.1 459.76,-688.72 450.2,-684.15 449.44,-691.1"/>
 </g>
-<!-- bāba&#45;&gt;bābiets -->
-<g id="edge7" class="edge">
-<title>bāba&#45;&gt;bābiets</title>
+<!-- bāba____bāb&#45;&gt;bābiets____bāb -->
+<g id="edge9" class="edge">
+<title>bāba____bāb&#45;&gt;bābiets____bāb</title>
 <path fill="none" stroke="green" d="M349.97,-665.37C378.13,-655.06 425.66,-637.66 459.36,-625.33"/>
 <polygon fill="green" stroke="green" points="460.17,-628.76 468.36,-622.04 457.76,-622.19 460.17,-628.76"/>
 </g>
-<!-- bāba&#45;&gt;bābiņa -->
-<g id="edge9" class="edge">
-<title>bāba&#45;&gt;bābiņa</title>
+<!-- bāba____bāb&#45;&gt;bābiņa____bāb -->
+<g id="edge10" class="edge">
+<title>bāba____bāb&#45;&gt;bābiņa____bāb</title>
 <path fill="none" stroke="green" d="M344.17,-687.22C373.97,-709.38 434.26,-754.22 470.03,-780.82"/>
 <polygon fill="green" stroke="green" points="467.67,-783.43 477.78,-786.59 471.84,-777.81 467.67,-783.43"/>
 </g>
-<!-- bāba&#45;&gt;dzemdētājbāba -->
+<!-- bāba____bāb&#45;&gt;dzemdētājbāba____bāb -->
 <g id="edge12" class="edge">
-<title>bāba&#45;&gt;dzemdētājbāba</title>
+<title>bāba____bāb&#45;&gt;dzemdētājbāba____bāb</title>
 <path fill="none" stroke="blue" d="M342.9,-660C372.22,-635.13 433.71,-582.97 469.99,-552.18"/>
 <polygon fill="blue" stroke="blue" points="472.13,-554.97 477.49,-545.83 467.6,-549.63 472.13,-554.97"/>
 </g>
-<!-- dzemdētāja&#45;&gt;dzemdētājbāba -->
+<!-- dzemdētāja&#45;&gt;dzemdētājbāba____bāb -->
 <g id="edge11" class="edge">
-<title>dzemdētāja&#45;&gt;dzemdētājbāba</title>
+<title>dzemdētāja&#45;&gt;dzemdētājbāba____bāb</title>
 <path fill="none" stroke="blue" d="M378.5,-528C392.14,-528 407.14,-528 421.77,-528"/>
 <polygon fill="blue" stroke="blue" points="421.34,-531.5 431.34,-528 421.34,-524.5 421.34,-531.5"/>
 </g>
-<!-- baba&#45;&gt;babene -->
-<g id="edge15" class="edge">
-<title>baba&#45;&gt;babene</title>
+<!-- baba____bab__bāb&#45;&gt;babene____bab__bāb -->
+<g id="edge20" class="edge">
+<title>baba____bab__bāb&#45;&gt;babene____bab__bāb</title>
 <path fill="none" stroke="green" d="M341.98,-219.43C371.93,-191.41 437.77,-129.82 473.78,-96.13"/>
 <polygon fill="green" stroke="green" points="475.81,-99.02 480.72,-89.63 471.03,-93.91 475.81,-99.02"/>
 </g>
-<!-- baba&#45;&gt;babeņa -->
-<g id="edge17" class="edge">
-<title>baba&#45;&gt;babeņa</title>
+<!-- baba____bab__bāb&#45;&gt;babeņa____bab__bāb -->
+<g id="edge21" class="edge">
+<title>baba____bab__bāb&#45;&gt;babeņa____bab__bāb</title>
 <path fill="none" stroke="green" d="M345.81,-246.4C375.3,-265.25 431.69,-301.3 467.08,-323.92"/>
 <polygon fill="green" stroke="green" points="464.88,-326.66 475.19,-329.1 468.65,-320.76 464.88,-326.66"/>
 </g>
-<!-- baba&#45;&gt;babiņa -->
-<g id="edge19" class="edge">
-<title>baba&#45;&gt;babiņa</title>
+<!-- baba____bab__bāb&#45;&gt;babiņa____bab__bāb -->
+<g id="edge22" class="edge">
+<title>baba____bab__bāb&#45;&gt;babiņa____bab__bāb</title>
 <path fill="none" stroke="green" d="M353.29,-236.97C380.15,-239.93 421.91,-244.54 453.77,-248.06"/>
 <polygon fill="green" stroke="green" points="453.19,-251.52 463.51,-249.14 453.95,-244.56 453.19,-251.52"/>
 </g>
@@ -147,33 +147,33 @@
 <text xml:space="preserve" text-anchor="middle" x="179.63" y="-201.2" font-family="Times New Roman,serif" font-size="14.00">bab, bāb</text>
 <text xml:space="preserve" text-anchor="middle" x="179.63" y="-184.7" font-family="Times New Roman,serif" font-size="14.00">(borrowed)</text>
 </g>
-<!-- bāba -->
+<!-- bāba____bāb -->
 <g id="node4" class="node">
-<title>bāba</title>
+<title>bāba____bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="325.4" cy="-674" rx="28.32" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="325.4" y="-668.95" font-family="Times New Roman,serif" font-size="14.00">bāba</text>
 </g>
-<!-- bābietis -->
+<!-- bābietis____bāb -->
 <g id="node5" class="node">
-<title>bābietis</title>
+<title>bābietis____bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="499.5" cy="-693" rx="39.58" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="499.5" y="-687.95" font-family="Times New Roman,serif" font-size="14.00">bābietis</text>
 </g>
-<!-- bābiets -->
+<!-- bābiets____bāb -->
 <g id="node6" class="node">
-<title>bābiets</title>
+<title>bābiets____bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="499.5" cy="-611" rx="37.02" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="499.5" y="-605.95" font-family="Times New Roman,serif" font-size="14.00">bābiets</text>
 </g>
-<!-- bābiņa -->
+<!-- bābiņa____bāb -->
 <g id="node7" class="node">
-<title>bābiņa</title>
+<title>bābiņa____bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="499.5" cy="-802" rx="35.49" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="499.5" y="-796.95" font-family="Times New Roman,serif" font-size="14.00">bābiņa</text>
 </g>
-<!-- dzemdētājbāba -->
+<!-- dzemdētājbāba____bāb -->
 <g id="node8" class="node">
-<title>dzemdētājbāba</title>
+<title>dzemdētājbāba____bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="499.5" cy="-528" rx="66.71" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="499.5" y="-522.95" font-family="Times New Roman,serif" font-size="14.00">dzemdētājbāba</text>
 </g>
@@ -183,45 +183,45 @@
 <ellipse fill="white" stroke="black" stroke-width="0" cx="325.4" cy="-528" rx="53.4" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="325.4" y="-522.95" font-family="Times New Roman,serif" font-size="14.00" fill="gray">dzemdētāja</text>
 </g>
-<!-- baba -->
+<!-- baba____bab__bāb -->
 <g id="node10" class="node">
-<title>baba</title>
+<title>baba____bab__bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="325.4" cy="-234" rx="28.32" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="325.4" y="-228.95" font-family="Times New Roman,serif" font-size="14.00">baba</text>
 </g>
-<!-- babene -->
+<!-- babene____bab__bāb -->
 <g id="node11" class="node">
-<title>babene</title>
+<title>babene____bab__bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="499.5" cy="-73" rx="37.02" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="499.5" y="-67.95" font-family="Times New Roman,serif" font-size="14.00">babene</text>
 </g>
-<!-- babeņa -->
+<!-- babeņa____bab__bāb -->
 <g id="node12" class="node">
-<title>babeņa</title>
+<title>babeņa____bab__bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="499.5" cy="-344" rx="37.02" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="499.5" y="-338.95" font-family="Times New Roman,serif" font-size="14.00">babeņa</text>
 </g>
-<!-- babiņa -->
+<!-- babiņa____bab__bāb -->
 <g id="node13" class="node">
-<title>babiņa</title>
+<title>babiņa____bab__bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="499.5" cy="-253" rx="35.49" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="499.5" y="-247.95" font-family="Times New Roman,serif" font-size="14.00">babiņa</text>
 </g>
-<!-- babņiks -->
+<!-- babņiks____bab__bāb -->
 <g id="node14" class="node">
-<title>babņiks</title>
+<title>babņiks____bab__bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="325.4" cy="-162" rx="39.58" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="325.4" y="-156.95" font-family="Times New Roman,serif" font-size="14.00">babņiks</text>
 </g>
-<!-- babuška -->
+<!-- babuška____bab__bāb -->
 <g id="node15" class="node">
-<title>babuška</title>
+<title>babuška____bab__bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="325.4" cy="-90" rx="41.12" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="325.4" y="-84.95" font-family="Times New Roman,serif" font-size="14.00">babuška</text>
 </g>
-<!-- bābuška -->
+<!-- bābuška____bab__bāb -->
 <g id="node16" class="node">
-<title>bābuška</title>
+<title>bābuška____bab__bāb</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="325.4" cy="-18" rx="41.12" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="325.4" y="-12.95" font-family="Times New Roman,serif" font-size="14.00">bābuška</text>
 </g>

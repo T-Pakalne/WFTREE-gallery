@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 206.00 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
 <polygon fill="white" stroke="none" points="-4,4 -4,-112 201.63,-112 201.63,4 -4,4"/>
-<!-- # bruk&#45;&gt;Bruks -->
+<!-- # bruk&#45;&gt;Bruks___bruk -->
 <g id="edge1" class="edge">
-<title># bruk&#45;&gt;Bruks</title>
+<title># bruk&#45;&gt;Bruks___bruk</title>
 <path fill="none" stroke="#cccccc" d="M76.52,-64.8C95.33,-70.27 117.78,-76.8 135.12,-81.84"/>
 </g>
-<!-- # bruk&#45;&gt;Bruka -->
+<!-- # bruk&#45;&gt;Bruka___bruk -->
 <g id="edge2" class="edge">
-<title># bruk&#45;&gt;Bruka</title>
+<title># bruk&#45;&gt;Bruka___bruk</title>
 <path fill="none" stroke="#cccccc" d="M76.52,-43.2C95.19,-37.77 117.44,-31.3 134.73,-26.28"/>
 </g>
 <!-- # bruk -->
@@ -25,15 +25,15 @@
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-57.2" font-family="Times New Roman,serif" font-size="14.00">bruk</text>
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-40.7" font-family="Times New Roman,serif" font-size="14.00">(borrowed)</text>
 </g>
-<!-- Bruks -->
+<!-- Bruks___bruk -->
 <g id="node2" class="node">
-<title>Bruks</title>
+<title>Bruks___bruk</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="164.19" cy="-90" rx="32.93" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="164.19" y="-84.95" font-family="Times New Roman,serif" font-size="14.00">Bruks</text>
 </g>
-<!-- Bruka -->
+<!-- Bruka___bruk -->
 <g id="node3" class="node">
-<title>Bruka</title>
+<title>Bruka___bruk</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="164.19" cy="-18" rx="33.44" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="164.19" y="-12.95" font-family="Times New Roman,serif" font-size="14.00">Bruka</text>
 </g>

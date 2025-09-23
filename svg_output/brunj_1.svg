@@ -8,20 +8,20 @@
  viewBox="0.00 0.00 234.00 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
 <polygon fill="white" stroke="none" points="-4,4 -4,-184 229.63,-184 229.63,4 -4,4"/>
-<!-- # bruņ&#45;&gt;Kaldabruņa -->
+<!-- # bruņ&#45;&gt;Kaldabruņa___bruņ -->
 <g id="edge1" class="edge">
-<title># bruņ&#45;&gt;Kaldabruņa</title>
+<title># bruņ&#45;&gt;Kaldabruņa___bruņ</title>
 <path fill="none" stroke="#cccccc" d="M58.82,-148.46C82.53,-136.07 117.53,-117.79 142.06,-104.97"/>
 </g>
-<!-- kalns&#45;&gt;Kaldabruņa -->
+<!-- kalns&#45;&gt;Kaldabruņa___bruņ -->
 <g id="edge2" class="edge">
-<title>kalns&#45;&gt;Kaldabruņa</title>
+<title>kalns&#45;&gt;Kaldabruņa___bruņ</title>
 <path fill="none" stroke="blue" d="M62.13,-90C75.16,-90 91.07,-90 106.65,-90"/>
 <polygon fill="blue" stroke="blue" points="106.37,-93.5 116.37,-90 106.37,-86.5 106.37,-93.5"/>
 </g>
-<!-- bruņa&#45;&gt;Kaldabruņa -->
+<!-- bruņa&#45;&gt;Kaldabruņa___bruņ -->
 <g id="edge3" class="edge">
-<title>bruņa&#45;&gt;Kaldabruņa</title>
+<title>bruņa&#45;&gt;Kaldabruņa___bruņ</title>
 <path fill="none" stroke="blue" d="M55.66,-29.89C76.4,-40.72 107.45,-56.95 132.08,-69.81"/>
 <polygon fill="blue" stroke="blue" points="130.36,-72.87 140.85,-74.39 133.6,-66.66 130.36,-72.87"/>
 </g>
@@ -31,9 +31,9 @@
 <polygon fill="lightblue" stroke="black" stroke-width="0" points="58.9,-180 4.9,-180 4.9,-144 58.9,-144 58.9,-180"/>
 <text xml:space="preserve" text-anchor="middle" x="31.9" y="-156.95" font-family="Times New Roman,serif" font-size="14.00">bruņ</text>
 </g>
-<!-- Kaldabruņa -->
+<!-- Kaldabruņa___bruņ -->
 <g id="node2" class="node">
-<title>Kaldabruņa</title>
+<title>Kaldabruņa___bruņ</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="171.72" cy="-90" rx="53.91" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="171.72" y="-84.95" font-family="Times New Roman,serif" font-size="14.00">Kaldabruņa</text>
 </g>

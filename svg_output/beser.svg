@@ -8,9 +8,9 @@
  viewBox="0.00 0.00 215.00 49.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 45)">
 <polygon fill="white" stroke="none" points="-4,4 -4,-45 210.84,-45 210.84,4 -4,4"/>
-<!-- # beser&#45;&gt;Beseris -->
+<!-- # beser&#45;&gt;Beseris___beser -->
 <g id="edge1" class="edge">
-<title># beser&#45;&gt;Beseris</title>
+<title># beser&#45;&gt;Beseris___beser</title>
 <path fill="none" stroke="#cccccc" d="M76.52,-20.5C93.7,-20.5 114.06,-20.5 131.18,-20.5"/>
 </g>
 <!-- # beser -->
@@ -20,9 +20,9 @@
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-23.7" font-family="Times New Roman,serif" font-size="14.00">beser</text>
 <text xml:space="preserve" text-anchor="middle" x="38.38" y="-7.2" font-family="Times New Roman,serif" font-size="14.00">(borrowed)</text>
 </g>
-<!-- Beseris -->
+<!-- Beseris___beser -->
 <g id="node2" class="node">
-<title>Beseris</title>
+<title>Beseris___beser</title>
 <ellipse fill="white" stroke="black" stroke-width="0" cx="168.79" cy="-20.5" rx="38.04" ry="18"/>
 <text xml:space="preserve" text-anchor="middle" x="168.79" y="-15.45" font-family="Times New Roman,serif" font-size="14.00">Beseris</text>
 </g>
